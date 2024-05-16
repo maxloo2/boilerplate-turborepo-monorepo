@@ -1,0 +1,9 @@
+[submodule "apps/nextjs"]
+	path = apps/nextjs
+	url = https://github.com/maxloo2/boilerplate-nextjs-typescript
+[submodule "apps/nestjs"]
+	path = apps/nestjs
+	url = https://github.com/maxloo2/boilerplate-nestjs-typescript
+[submodule "apps/nodejs"]
+	path = apps/nodejs
+	url = https://github.com/maxloo2/boilerplate-nodejs-typescript
