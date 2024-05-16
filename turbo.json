@@ -5,9 +5,13 @@
       "cache": false,
       "persistent": true
     },
+    "test": {},
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"],
+      "outputs": [".next/**", "!.next/cache/**", "build/**"],
       "dependsOn": ["^build"]
+    },
+    "start": {
+      "dependsOn": ["build"]
     }
   }
 }
